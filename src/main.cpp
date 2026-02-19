@@ -29,4 +29,9 @@ void loop() {
         digitalWrite(buzzerPin,HIGH); // we use high =1
         Serial.println("TOUCHED");
     }
+    else
+    {
+        digitalWrite(buzzerPin,LOW); // we use low = 0
+        Serial.println(" NOT TOUCHED");
+    }
 }
