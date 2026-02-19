@@ -2,7 +2,7 @@
 /**
  * @file main.ino
  * @brief Embedded Touch Detection System using TTP223
- * @author YOUR_NAME
+ * @author Naitik Agarwal
  * @date YYYY-MM-DD
  *
  * @details
@@ -10,11 +10,9 @@
  * and displays structured output via Serial Monitor.
  */
 
- // TODO 1:
- // Define touch sensor digital pin (Use pin 2)
-
- // TODO 2:
- // Create variable to store touch state
+int touchPin=7;
+int ledPin=13;
+int buzzerPin=13;
 
 void setup() {
 
